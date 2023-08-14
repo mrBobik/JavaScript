@@ -1,5 +1,3 @@
-let arr = [];
-
 num = process.argv[2];
 
 function primeNumbers(num) {
@@ -12,13 +10,14 @@ function primeNumbers(num) {
 
 
 function printPrimeNumbers(numPrimes) {
+    let arr = [];
     for (let i = 2; i <= numPrimes; i++) {
         if (primeNumbers(i))
             arr.push(i);
     }
-    console.log(arr);
+    return arr;
 }
 
 console.time();
-printPrimeNumbers(num);  //node main.js 10 or 100.... 
+console.log(printPrimeNumbers(num));  //node main.js 10 or 100....
 console.timeEnd();
