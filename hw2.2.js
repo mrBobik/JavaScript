@@ -97,12 +97,12 @@ function totalSum() {
     let totalAmount = add(arr);
     let totalSumm = add2(arr2);
 
-    return [totalAmount, totalSumm,];
+    return { totalAmount: totalAmount, totalSumm: totalSumm };
 }
 
 
 // console.log(addBasket(process.argv[2], process.argv[3]));       /*node JavaScript\hw2.2.js Шорты 5 */
- 
+
 // console.log(clearBasket());
 
 // console.log(delFromBasket(process.argv[2]));                   /*node JavaScript\hw2.2.js Рубашка*/
