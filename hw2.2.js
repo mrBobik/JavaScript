@@ -97,7 +97,7 @@ function totalSum() {
     let totalAmount = add(arr);
     let totalSumm = add2(arr2);
 
-    return `Общее количество товаров в корзине" ${totalAmount} шт., общая стоимость товаров в корзине ${totalSumm} руб.`;
+    return [totalAmount, totalSumm,];
 }
 
 
