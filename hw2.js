@@ -11,7 +11,7 @@ function primeNumbers(num) {
 
 function printPrimeNumbers(numPrimes) {
     let arr = [];
-    for (let i = 2; i <= numPrimes; i++) {
+    for (let i = 2; arr.length < numPrimes; i++) {
         if (primeNumbers(i))
             arr.push(i);
     }
@@ -19,5 +19,5 @@ function printPrimeNumbers(numPrimes) {
 }
 
 console.time();
-console.log(printPrimeNumbers(num));  //node hw2.js 10 or 100....
+console.log(printPrimeNumbers(num));  //node main.js 10 or 100....
 console.timeEnd();
