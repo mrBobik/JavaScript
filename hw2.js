@@ -19,5 +19,5 @@ function printPrimeNumbers(numPrimes) {
 }
 
 console.time();
-console.log(printPrimeNumbers(num));  //node main.js 10 or 100....
+console.log(printPrimeNumbers(num));  //node hw2.js 10 or 100....
 console.timeEnd();
